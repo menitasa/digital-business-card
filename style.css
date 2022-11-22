@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 20px;
+  font-family: Verdana, SansSerif, Serif;
+}
+
+.myimage {
+  width: 150px;
+  height: 100%;
+}
+
+.digital-card {
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 8px solid #ffb703;
+  color: black;
+  background-color: #8ecae6;
+}
+
+.digital-card:hover {
+  background-color: #fb8500;
+	border-bottom: 8px solid #8ecae6;
+}
+.italic {
+  font-style: italic;
+}
+
+.border-bule {
+  border: dotted blue 1px;
+}
